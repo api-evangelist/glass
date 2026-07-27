@@ -1,7 +1,28 @@
 aid: glass
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glass.png
 name: GLASS
-description: GLASS is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Glass Imaging (GlassAI) is a Los Altos, California AI imaging company that
+  extracts the full image-quality potential from camera hardware by using neural
+  networks to reverse lens aberrations and sensor imperfections. Its GlassAI
+  Neural ISP is a software image-signal-processing pipeline that boosts camera
+  performance up to 10x on edge AI-enabled devices such as smartphones, and its
+  co-designed AI-plus-optics approach delivers DSLR-quality imaging from
+  size-constrained camera systems. The company is venture-backed by GV, LDV
+  Capital, Future Ventures, Abstract Ventures, Ground Up, and Insight Partners.
+  Glass Imaging is an on-device computer-vision technology provider and does not
+  currently publish a public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/glass/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Computer Vision
+- Image Processing
+- Neural ISP
+- Camera
+- Smartphone
+- Edge AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,10 @@ maintainers:
 common:
 - type: Website
   url: https://www.glass-imaging.com/
+- type: Blog
+  url: https://www.glass-imaging.com/journal
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
